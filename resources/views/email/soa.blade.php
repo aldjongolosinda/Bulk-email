@@ -1,6 +1,6 @@
 <h4>
-     Security Bank, Inc. <br>
-     Tagbilaran, Bohol
+     MDC bank, Inc. <br>
+     Cabulijan, Bohol
 </h4>
 
 <h1>Statement of Account</h1>
