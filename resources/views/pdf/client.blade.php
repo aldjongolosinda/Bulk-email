@@ -14,28 +14,26 @@
 
         table {
             border-collapse: collapse;
-            margin-bottom: 13px;
-            margin-top: 13px;
         }
 
         table th,
         table td {
             border: 1px solid #777;
-            padding: 5px;
+            padding: 2px;
         }
     </style>
 </head>
 <body>
     <p style="text-align: center; margin-bottom: 18pt">
-        <img src="{{public_path('images/mBank.jpg')}}" style="width: 200px;" alt=""> <br>
+        <img src="{{public_path('images/mdc.jpg')}}" style="width: 200px;" alt=""> <br>
         {{-- <strong style="font-size: 16pt">MDC Banking, Inc.</strong> <br> --}}
-        JVR4+9JW, New Capital I Complex, Marapao Street, <br>
-        Tagbilaran City, Bohol <br>
-        Tel. No.: 555-666-7890, (038) 411 5776
+        #445 Ill Fortune St., Merrycormic <br>
+        Tagbilaran city, Bohol <br>
+        Tel. No.: 555-666-7890, 223-129-9089
     </p>
 
     <h1>Client Summary</h1>
-    <table style='width: 7.3in'>
+    <table style='width: 5in'>
         <tr>
             <th>Name</th>
             <td>{{$client->first_name}} {{$client->middle_name}} {{$client->last_name}}</td>
@@ -79,4 +77,3 @@
     </table>
 </body>
 </html>
-
